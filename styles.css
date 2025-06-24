@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero{
+    background-color: beige;
+    height: 30px;
+}
+
+.main{
+    height: 100vh;
+    padding: 10px;
+}
+
+.footer{
+    background-color: bisque;
+    height: 150px;
+}
+
+.first{
+    background-color: azure;
+    height: 20vh;
+}
+
+.second{
+    background-color: aquamarine;
+    height: 60vh;
+}
+
+.third{
+    background-color: blanchedalmond;
+    height: 20vh;
+    display: flex;
+    gap: 30 px;
+
+}
+
+.F1{
+    display: flex;
+    justify-content: center;
+}
+
+.F2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+.F3{
+    display: flex;
+    justify-content: center;
+}
+
+.t1{
+    background-color: brown;
+}
+
+.t2{
+    background-color: aqua;
+}
+
+.t3{
+    background-color:darkcyan;
+}
+
+.img{
+    background-color:blanchedalmond;
+}
