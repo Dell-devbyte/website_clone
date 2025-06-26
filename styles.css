@@ -6,6 +6,8 @@
 .hero{
     background-color: beige;
     height: 30px;
+    display: flex;
+    gap: 220px;
 }
 
 .main{
@@ -14,7 +16,7 @@
 }
 
 .footer{
-    background-color: bisque;
+    
     height: 150px;
 }
 
@@ -32,8 +34,7 @@
     background-color: blanchedalmond;
     height: 20vh;
     display: flex;
-    gap: 30 px;
-
+    flex-direction: row;
 }
 
 .F1{
@@ -53,18 +54,118 @@
     justify-content: center;
 }
 
-.t1{
+.pt1{
     background-color: brown;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2%;
 }
 
-.t2{
+.pt2{
+    background-color: aqua;
+    width: 40%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.boldT{
+    background-color: deepskyblue;
+}
+
+.subT{
+    background-color: cornflowerblue;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn1{
+    background-color: aquamarine;
+}
+
+.btn2{
+    background-color: antiquewhite;
+}
+
+.marquee{
+    background-color: black;
+}
+
+.sb{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.sb1{
+    width: 50%;
+    height: 50%;
+}
+
+.sb2{
+    width: 50%;
+    height: 50%;
+}
+
+.Icon{
+    background-color: ivory;
+    padding: 7%;
+}
+
+.spacedText{
+    background-color: aqua;
+    padding: 7%;
+}
+
+.tinyText{
+    background-color: darkkhaki;
+    padding: 7%;
+}
+
+.minibar{
+    background-color: darkslategrey;
+    padding: 7%;
+}
+
+.grids {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: lightblue; 
+    flex: 2 2 15%; 
+    margin: 10px; 
+    text-align: center; 
+    padding: 27px; 
+}
+
+.untitled{
+    background-color: darkgoldenrod;
+}
+
+.midsub{
     background-color: aqua;
 }
 
-.t3{
-    background-color:darkcyan;
+.tb{
+    display: flex;
+    flex-direction: row;
+    gap: 50%;
 }
 
-.img{
-    background-color:blanchedalmond;
+.copyright{
+    background-color: burlywood;
+    width: 30%;
+}
+
+.terms{
+    background-color: cadetblue;
+    width: 20%;
 }
